@@ -1,0 +1,67 @@
+/* Skills Section Styling */
+.skills-container {
+    margin: 2em 0;
+  }
+  
+  .skill-item {
+    margin-bottom: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .skill-name {
+    flex: 0 0 200px;
+    font-weight: 600;
+    font-size: 0.95em;
+  }
+  
+  .skill-bar {
+    flex: 1;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .skill-level {
+    height: 100%;
+    background: linear-gradient(90deg, #4CAF50, #45a049);
+    border-radius: 12px;
+    transition: width 1s ease-in-out;
+    animation: fillBar 1.5s ease-in-out;
+  }
+  
+  .skill-percent {
+    flex: 0 0 50px;
+    text-align: right;
+    font-weight: 500;
+    color: #666;
+  }
+  
+  @keyframes fillBar {
+    from {
+      width: 0;
+    }
+    to {
+      width: var(--skill-width);
+    }
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .skill-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .skill-name {
+      flex: none;
+      width: 100%;
+    }
+    
+    .skill-bar {
+      width: 100%;
+    }
+  }

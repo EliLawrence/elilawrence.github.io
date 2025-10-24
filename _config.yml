@@ -8,7 +8,8 @@ repository: "elilawrence/elilawrence.github.io"
 # Theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+head_scripts:
+  - /assets/css/style.css
 # Author info (appears in sidebar/footer)
 author:
   name: "Elizabeth Lawrence"
