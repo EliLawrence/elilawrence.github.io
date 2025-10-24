@@ -15,7 +15,14 @@ author:
   avatar: "/assets/images/portrait.jpg" # Add your photo later
   bio: "Ecologist | Training Officer | Data Standards"
   location: "Montreal, Canada"
-  email: #"your.email@example.com"
+  email: "e.lawrence@obis.org"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/elilawrence"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/elilawrence"
 
 # Build settings
 markdown: kramdown
