@@ -13,8 +13,8 @@ head_scripts:
 # Author info (appears in sidebar/footer)
 author:
   name: "Elizabeth Lawrence"
-  avatar: "/assets/images/portrait.jpg" # Add your photo later
-  bio: "Ecologist | Training Officer | Data Standards"
+  avatar: "/assets/images/portrait.jpg"
+  bio: "Ecologist, Training Officer, Data Standards"
   location: "Montreal, Canada"
   email: "e.lawrence@obis.org"
   links:
