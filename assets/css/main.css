@@ -1,0 +1,57 @@
+/* Skills Section Styling - High specificity to override theme */
+.page .skills-container {
+    margin: 2em 0 !important;
+  }
+  
+.page .skill-item {
+    margin-bottom: 1.5em !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 1em !important;
+  }
+  
+.page .skill-name {
+    flex: 0 0 200px !important;
+    font-weight: 600 !important;
+    font-size: 0.95em !important;
+ }
+  
+.page .skill-bar {
+    flex: 1 !important;
+    height: 25px !important;
+    background-color: #e0e0e0 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    position: relative !important;
+  }
+  
+.page .skill-level {
+    height: 100% !important;
+    background: linear-gradient(90deg, #4CAF50, #45a049) !important;
+    border-radius: 12px !important;
+    transition: width 1s ease-in-out !important;
+  }
+  
+.page .skill-percent {
+    flex: 0 0 50px !important;
+    text-align: right !important;
+    font-weight: 500 !important;
+    color: #666 !important;
+  }
+  
+  /* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .page .skill-item {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+    }
+    
+    .page .skill-name {
+      flex: none !important;
+      width: 100% !important;
+    }
+    
+    .page .skill-bar {
+      width: 100% !important;
+    }
+  }
